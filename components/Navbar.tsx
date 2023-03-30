@@ -27,11 +27,11 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <div className="flex justify-between px-5 py-3 my-3">
-      <span className="text-xl font-bold border-b-4 text-green border-green md:text-2xl">
+    <div className="flex justify-between px-5 py-3 my-3 dark:bg-dark-200">
+      <span className="text-xl font-bold border-b-4 text-green border-green md:text-2xl dark:bg-dark-200">
         {activeItem}
       </span>
-      <div className="flex space-x-6 text-lg text-red-400">
+      <div className="flex space-x-6 text-lg text-red-400 dark:bg-dark-200 ">
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}

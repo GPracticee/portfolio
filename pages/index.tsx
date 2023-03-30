@@ -4,15 +4,18 @@ import { services } from "@/data";
 
 const Index = () => {
   return (
-    <div className="flex flex-col flex-grow px-6 pt-1">
+    <div className="flex flex-col flex-grow px-6 pt-1 dark:bg-dark-200">
       <h5 className="my-3 font-medium">
         I have 2+ years of experience in Web Development and i am a MERN stack
         Developer. I completed my B.Tech in Computer Science Engineering from
         MDU university{" "}
       </h5>
-      <div className="flex-grow p-4 mt-5 bg-gray-400" style={{marginLeft:"-1.5rem",marginRight:"-1.5rem"}}>
+      <div
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-200"
+        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+      >
         <h5 className="my-3 text-xl font-bold tracking-wide">what i offer</h5>
-        <div className="grid gap-6 lg:grid-cols-2">
+        <div className="grid gap-6 lg:grid-cols-2 dark:bg-dark-200" >
           {services.map((service) => (
             <div className="bg-gray-200 rounded-lg lg:cl-span-1">
               <ServiceCard service={service} />
