@@ -1,5 +1,5 @@
 import {RiComputerLine} from 'react-icons/ri'
-import { IService, ISkill } from './type';
+import { IProject, IService, ISkill } from './type';
 import {FaServer} from 'react-icons/fa'
 import {AiOutlineApi,AiOutlineAntDesign} from "react-icons/ai"
 import {BsCircleFill} from 'react-icons/bs'
@@ -65,11 +65,11 @@ export const languages:ISkill[] =
 
 export const tools:ISkill[] =
 [
-    {
-        name:"Figma",
-        level:"50%",
-        Icon:BsCircleFill
-    },
+    // {
+    //     name:"Figma",
+    //     level:"50%",
+    //     Icon:BsCircleFill
+    // },
     {
         name:"Git",
         level:"60%",
@@ -91,4 +91,24 @@ export const tools:ISkill[] =
         Icon:BsCircleFill
     },
 
+]
+
+export const projects:IProject[] = [{
+    name:"Movie Clone",
+    description:"this is a movie app",
+    image_path:"/images/hero.jpg",
+    deployed_url:"https://movie-clone-sandy.vercel.app/",
+    github_url:"https://github.com/GPracticee/movie_clone",
+    category:["next","mongo","express"],
+    key_techs:["React","Next","Tailwind css","Type Script"]
+},
+{
+    name:"Notes",
+    description:"this is a notes taking app",
+    image_path:"/images/notes.png",
+    deployed_url:"https://todo-gules-delta.vercel.app/",
+    github_url:"https://github.com/GPracticee/todo",
+    category:["react"],
+    key_techs:["React","Type Script"]
+},
 ]

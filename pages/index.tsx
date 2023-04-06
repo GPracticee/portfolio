@@ -11,15 +11,17 @@ const Index = () => {
         MDU university{" "}
       </h5>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-200"
+        className="flex-grow p-4 mt-5 dark:bg-dark-200"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h5 className="my-3 text-xl font-bold tracking-wide">what i offer</h5>
-        <div className="grid gap-6 lg:grid-cols-2 dark:bg-dark-200" >
+        <div className="grid gap-6 lg:grid-cols-2 dark:bg-dark-200">
           {services.map((service) => (
-            <div className="bg-gray-200 rounded-lg lg:cl-span-1">
-              <ServiceCard service={service} />
-            </div>
+            <>
+              <div className="bg-gray-200 rounded-lg lg:cl-span-1">
+                <ServiceCard service={service} />
+              </div>
+            </>
           ))}
         </div>
       </div>
