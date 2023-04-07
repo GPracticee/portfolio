@@ -15,14 +15,14 @@ const Sidebar = () => {
   return (
     <div className=" dark:bg-dark-200">
       <Image
-        src="/images/author1.jpg"
+        src="/images/main.jpg"
         alt="avatar"
         width={350}
         height={350}
         className="rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green">John</span> Doe
+        <span className="text-green">Gautam</span> Baghel
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">Web Developer</p>
 
@@ -53,7 +53,7 @@ const Sidebar = () => {
           <GoLocation />
           <span>India</span>
         </div>
-        <p className="my-2">abc@gmail.com</p>
+        <p className="my-2">gautam@gmail.com</p>
         <p className="my-2">9865689565</p>
       </div>
       <button
