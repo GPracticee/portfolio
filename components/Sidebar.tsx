@@ -17,8 +17,8 @@ const Sidebar = () => {
       <Image
         src="/images/main.jpg"
         alt="avatar"
-        width={350}
-        height={350}
+        width={200}
+        height={200}
         className="rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
