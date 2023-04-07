@@ -16,8 +16,9 @@ const Sidebar = () => {
     <div className=" dark:bg-dark-200">
       <Image
         src="/images/author1.jpg"
-        width={400}
-        height={400}
+        alt="avatar"
+        width={350}
+        height={350}
         className="rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
@@ -27,8 +28,8 @@ const Sidebar = () => {
 
       <Link
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
-        href=""
-        download=""
+        href="/assets/gautam.jpg"
+        download="gautam.jpg"
       >
         <GiTie className="w-6 h-6 text-green-500" /> Download resume
       </Link>
